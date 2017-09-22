@@ -26,12 +26,6 @@ require.config({
   },
   // load backbone as a shim
   shim: {
-    'backbone': {
-      //The underscore script dependency should be loaded before loading backbone.js
-      deps: ['underscore'],
-      // use the global 'Backbone' as the module name.
-      exports: 'Backbone'
-    },
     'pace': {
       deps: ['css!../../components/PACE/themes/blue/pace-theme-loading-bar']
     },
